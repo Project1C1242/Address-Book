@@ -1,1 +1,15 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include "Contact.h"
 
+using namespace std;
+
+int main()
+{
+  Contact contact;
+
+  
+
+  return 0;
+}
