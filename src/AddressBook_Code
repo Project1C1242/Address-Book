@@ -1,0 +1,30 @@
+#include <iostream>
+#include <iomanip>
+#include <string>
+#include <vector>
+#include "Contact.h"
+
+using namespace std;
+
+int main()
+{
+	Person p("Stanford Pines", "111-112-1134", "...", "...", "6-15-1955");
+	Business b("Amazon", "...", "...", "...", "amazon.com");
+	Vendor v("Charles' Chum", "...", "...", "...", "Meat Packs");
+	Emergency e("Fire", "121-122-1234", "...", "...", "in-building");
+
+	p.display();
+	cout << endl;
+
+	b.display();
+	cout << endl;
+
+	v.display();
+	cout << endl;
+
+	e.display();
+	cout << endl;
+
+
+	return 0;
+}
