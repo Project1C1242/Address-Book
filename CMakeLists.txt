@@ -14,6 +14,7 @@ include_directories(include)
 set(SOURCES
     src/main.cpp
     src/AddressBook.h
+    src/AddressBook.cpp
     src/Contact.cpp
     src/Contact.h
     src/Person.cpp
