@@ -13,10 +13,17 @@ include_directories(include)
 # Add your source files here as you create them
 set(SOURCES
     src/main.cpp
+    src/AddressBook.h
     src/Contact.cpp
     src/Contact.h
-
-  
+    src/Person.cpp
+    src/Person.h
+    src/Business.cpp
+    src/Business.h
+    src/Vendor.cpp
+    src/Vendor.h
+    src/Emergency.cpp
+    src/Emergency.h
 )
 
 # Create the executable
